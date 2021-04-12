@@ -1,0 +1,2 @@
+# WebScrapping
+An end to end application that scrapes urls from multiple pages of a news site, saves them in news_urls table in the database (I'm using PostgreSQL). The application then fetches the urls from the news_urls table and scrapes the title, published date and published year from each news url and stores this information in another table called news_content in the same database. During the entire process, the status of each news url in the news_urls table changes from Not Extracted (N) to Pending for extraction (P) to Extracted (Y).
